@@ -32,8 +32,18 @@
     
 }
 
+.logo-info{
+    font-size: 40px;
+    color:#0B0223;
+    font-weight: 700;
+    margin: 0px;
+}
+
 .nav-context-container a{
     text-decoration: none;
+    font-size: 18px;
+    color:#3C354F;
+    font-weight: 500;
 
 }
 
