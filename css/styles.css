@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -57,3 +63,95 @@
     align-items: center;
     gap: 10px;
 }
+
+/* banner section style start here */
+    .banner-container{
+        border: 1px solid rebeccapurple;
+        max-width: 1250px;
+        margin: 10px auto;
+        display: flex;
+    }
+
+    .banner-text-content{
+        width: 50%;
+        border:1px solid #0B0223;
+        background-image: url("../images/group-14.png");
+        background-size: cover;
+       
+    }
+
+    .banner-img-section{
+        width: 50%;
+        border:1px solid blue;
+    }
+
+    .banner-img-section img{
+        width: 100%;
+    }
+    .h3{
+        color: #0B0223;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+        
+
+    }
+    .liner-gradient{
+        text-align: center;
+        font-size: 95px;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        margin: 0;
+        
+
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+    }
+
+    .logo-content-text{
+       margin-bottom: 0px;
+    }
+    .logo-content-text{
+       
+       width: 60%;
+       margin: 0 auto;
+    }
+
+      .logo-text{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+ 
+ .banner-button-container{
+    display: flex;
+    gap: 7px;
+ }
+
+ .Sign-in{
+    background-color: #FF42A5;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .go-rogue{
+    background-color: #4EC5F7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+
+
+/* banner section styles end here */

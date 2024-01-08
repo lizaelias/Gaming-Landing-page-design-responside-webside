@@ -3,19 +3,21 @@
 
 @media screen and (max-width:576px){
 
-    .nav-container{
+    .nav-container,
+    .banner-container{
       flex-direction: column;
-    
+      margin-bottom: 30px;
            
     }
 
     
 
-    .nav-logo{
+    .nav-logo,
+    .banner-text-content,
+    .banner-img-section{
         
         width: 100%;
-       
-        justify-content: center;
+       justify-content: center;
        
     }
 
@@ -36,14 +38,17 @@
 
 @media screen and  (min-width:576px) and (max-width:876px){
 
-    .nav-container{
+    .nav-container,
+    .banner-container{
       flex-direction: column;
               
     }
 
     
 
-    .nav-logo{
+    .nav-logo,
+    .banner-text-content,
+    .banner-img-section{
         
         width: 100%;
         justify-content: center;
@@ -56,6 +61,11 @@
         justify-content: center;
        
     }
+    .logo-content-text{
+       
+        width: 50%;
+        margin: 0 auto;
+     }
 
 
 }
