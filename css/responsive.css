@@ -4,7 +4,8 @@
 @media screen and (max-width:576px){
 
     .nav-container,
-    .banner-container{
+    .banner-container,
+    .banner-tow-container{
       flex-direction: column;
       margin-bottom: 30px;
            
@@ -14,11 +15,17 @@
 
     .nav-logo,
     .banner-text-content,
-    .banner-img-section{
+    .banner-img-section,
+    .img-container,
+    .tow-context-text{
         
         width: 100%;
        justify-content: center;
        
+    }
+
+    .tow-context-text{
+        margin-top: 10px;
     }
 
     .nav-context-container{
@@ -39,7 +46,8 @@
 @media screen and  (min-width:576px) and (max-width:876px){
 
     .nav-container,
-    .banner-container{
+    .banner-container,
+    .banner-tow-container{
       flex-direction: column;
               
     }
@@ -48,7 +56,9 @@
 
     .nav-logo,
     .banner-text-content,
-    .banner-img-section{
+    .banner-img-section,
+    .img-container,
+    .tow-context-text{
         
         width: 100%;
         justify-content: center;
@@ -66,6 +76,16 @@
         width: 50%;
         margin: 0 auto;
      }
+
+     .tow-context-text{
+        margin-top: 10px;
+     }
+
+     
+.know-more-btn{
+    margin-left: 700px;
+  
+}
 
 
 }

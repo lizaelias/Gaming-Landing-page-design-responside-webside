@@ -155,3 +155,86 @@ body{
 
 
 /* banner section styles end here */
+
+
+/* banner tow section desgin start here */
+
+.banner-tow-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    
+  
+
+}
+
+.img-container{
+    width: 60%;
+    border:1px solid #F948B2;
+}
+.img-container img{
+    width: 100%;
+}
+
+.tow-context-text{
+    width: 40%;
+    border:1px solid red;
+    padding-right: 5px;
+   
+   
+}
+
+.tow-context-text-title{
+
+        text-align: right;
+        font-size: 47px;
+        font-weight: 700;
+        margin: 0;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent
+
+}
+
+.tow-context-text-des{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+
+
+.know-more-btn{
+    display: inline-flex;
+    margin-top: 0;
+    padding: 11px 20px;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: 350px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+
+    
+}
+
+.unleash-text{
+
+    color: #534C64;
+
+text-align: right;
+
+font-size: 24px;
+
+font-weight: 500;
+line-height: 45px; 
+}
+
+
+
+
+/* banner tow section desgin start end */
