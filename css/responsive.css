@@ -5,10 +5,15 @@
 
     .nav-container,
     .banner-container,
-    .banner-tow-container{
+    .banner-tow-container,
+    .Downloads-container{
       flex-direction: column;
       margin-bottom: 30px;
            
+    }
+
+    .Play-Games-cotainer{
+        flex-direction: column;
     }
 
     
@@ -17,14 +22,17 @@
     .banner-text-content,
     .banner-img-section,
     .img-container,
-    .tow-context-text{
+    .tow-context-text,
+    .Downloads-text-context,
+    .Play-Games-img-cotainer{
         
         width: 100%;
        justify-content: center;
        
     }
 
-    .tow-context-text{
+    .tow-context-text,
+    .Downloads-img-container{
         margin-top: 10px;
     }
 
@@ -37,6 +45,43 @@
         
     }
 
+    .grid-card-container{
+
+        grid-template-columns: 1fr;
+       
+    
+    }
+
+    .Downloads-img-container{
+        
+        width:100%;
+       
+       
+    }
+    .Downloads-img{
+        bottom: -50px;
+        left:40px;
+    }
+
+    .small-img{
+        width: 118px;
+        height: 165px;
+        position: absolute;
+        right: -20px;
+        bottom:-100px;
+      }
+   
+    .Play-Games-text-context{
+       
+        width: 100%;
+        margin-left: 10px;
+        padding-left: 10px;
+        margin-top: 100px;
+       
+     }
+
+    
+
 
 }
 
@@ -47,7 +92,8 @@
 
     .nav-container,
     .banner-container,
-    .banner-tow-container{
+    .banner-tow-container,
+    .Downloads-container{
       flex-direction: column;
               
     }
@@ -58,7 +104,8 @@
     .banner-text-content,
     .banner-img-section,
     .img-container,
-    .tow-context-text{
+    .tow-context-text,
+    .Downloads-text-context{
         
         width: 100%;
         justify-content: center;
@@ -85,6 +132,25 @@
 .know-more-btn{
     margin-left: 700px;
   
+}
+
+.grid-card-container{
+   
+    grid-template-columns: repeat(2, 1fr);
+   
+
+}
+
+.Downloads-img-container{
+        
+    width:100%;
+    
+   
+   
+}
+.Downloads-img{
+    bottom: -50px;
+    left:330px;
 }
 
 
