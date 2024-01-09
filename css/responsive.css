@@ -16,6 +16,10 @@
         flex-direction: column;
     }
 
+    .careers-container{
+        flex-direction: column;
+     }
+
     
 
     .nav-logo,
@@ -24,7 +28,9 @@
     .img-container,
     .tow-context-text,
     .Downloads-text-context,
-    .Play-Games-img-cotainer{
+    .Play-Games-img-cotainer,
+    .careers-text-context,
+    .careers-img-container{
         
         width: 100%;
        justify-content: center;
@@ -32,7 +38,8 @@
     }
 
     .tow-context-text,
-    .Downloads-img-container{
+    .Downloads-img-container,
+    .careers-img-container{
         margin-top: 10px;
     }
 
