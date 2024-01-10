@@ -52,7 +52,8 @@
         
     }
 
-    .grid-card-container{
+    .grid-card-container,
+    .wrap-cotainer{
 
         grid-template-columns: 1fr;
        
@@ -86,6 +87,19 @@
         margin-top: 100px;
        
      }
+
+     .text-context,
+     .footer-logo{
+      
+        
+        grid-template-columns: repeat(3, 1fr);
+        
+       
+       }
+       .footer-sort-info{
+        grid-template-columns: repeat(2, 1fr);
+    
+       }
 
     
 
@@ -141,7 +155,8 @@
   
 }
 
-.grid-card-container{
+.grid-card-container,
+.wrap-cotainer{
    
     grid-template-columns: repeat(2, 1fr);
    

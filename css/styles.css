@@ -11,7 +11,7 @@ body{
 
 
 .nav-container{
-    border: 1px solid green;
+    
     max-width: 1250px;
     margin: 0 auto;
     display: flex;
@@ -21,7 +21,7 @@ body{
 }
 
 .nav-logo{
-    border: 1px solid red;
+
     width: 50%;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ body{
 
 /* banner section style start here */
     .banner-container{
-        border: 1px solid rebeccapurple;
+       
         max-width: 1250px;
         margin: 10px auto;
         display: flex;
@@ -74,7 +74,7 @@ body{
 
     .banner-text-content{
         width: 50%;
-        border:1px solid #0B0223;
+        
         background-image: url("../images/group-14.png");
         background-size: cover;
        
@@ -82,7 +82,7 @@ body{
 
     .banner-img-section{
         width: 50%;
-        border:1px solid blue;
+       
     }
 
     .banner-img-section img{
@@ -162,7 +162,7 @@ body{
 .banner-tow-container{
     max-width: 1250px;
     margin: 0 auto;
-    border: 1px solid black;
+   
     display: flex;
     
   
@@ -171,7 +171,7 @@ body{
 
 .img-container{
     width: 60%;
-    border:1px solid #F948B2;
+   
 }
 .img-container img{
     width: 100%;
@@ -179,7 +179,6 @@ body{
 
 .tow-context-text{
     width: 40%;
-    border:1px solid red;
     padding-right: 5px;
    
    
@@ -273,7 +272,6 @@ line-height: 45px;
 .grid-card-container{
     max-width: 1250px;
     margin: 10px auto;
-    border: 1px solid yellow;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -307,7 +305,6 @@ Downloads sction desgin start here  */
 
 .Downloads-text-context{
     width: 50%;
-    border: 1px solid red;
     margin: 0;
 
 }
@@ -340,7 +337,6 @@ Downloads sction desgin start here  */
 }
 
 .Downloads-img-container{
-    border: 1px solid yellow;
     text-align: end;
     width:50%;
     position: relative;
@@ -368,14 +364,12 @@ Downloads sction desgin start here  */
 
 /* Play Games sction desgin start here */
   .Play-Games-cotainer{
-    border: 1px solid red;
     max-width: 1250px;
     margin: 70px auto;
     display: flex;
   }
 
   .Play-Games-img-cotainer{
-    border: 1px solid blue;
     width: 50%;
     position: relative;
   }
@@ -392,7 +386,6 @@ Downloads sction desgin start here  */
   }
  
  .Play-Games-text-context{
-    border: 1px solid yellow;
     width: 426px;
     margin-left: 100px;
     padding-left: 20px;
@@ -429,14 +422,12 @@ Downloads sction desgin start here  */
   .careers-container{
    max-width: 1250px;
    margin: 150px auto;
-   border: 1px solid green;
    display: flex;
    padding: 10px;
   }
 
   .careers-text-context{
     width: 50%;
-    border: 1px solid blue;
     padding-bottom: 50px;
 
 
@@ -486,7 +477,6 @@ Downloads sction desgin start here  */
 
   .careers-img-container{
     width: 50%;
-    border: 1px solid yellow;
 
   }
 
@@ -509,4 +499,103 @@ Downloads sction desgin start here  */
 
 
 
-/* Careers banner section desgin start here */
+/* Careers banner section desgin end here */
+
+/* logo section desgin start here */
+   .wrap-cotainer{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+   
+    
+   }
+   .logo-container{
+      display: flex;
+    background-color: #FFF;
+      
+   }
+
+   .logo-img-contaner{
+    border-radius: 50px;
+   }
+   .logo-info{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+   }
+
+   
+
+/* logo section desgin end here */
+
+footer{
+    background: #0B0223;
+    text-align: center;
+}
+
+.footer-context{
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    
+   }
+
+   .footer-logo-tittle{
+    display: inline-flex;
+    align-items: center;
+    
+   }
+  .gamer{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+  }
+
+  .ganer-g{
+    color: #FF42A5;
+  }
+   .text-context{
+    display: grid;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    
+    grid-template-columns: repeat(6, 1fr);
+    
+   
+   }
+
+   .footer-logo{
+    font-size: 50px;
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+     
+   }
+
+   .footer-sort-info{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+      color: rgba(255, 255, 255, 0.60); 
+      font-size: 16px;
+      font-weight: 500;
+     justify-content: center;
+     align-items: center;
+
+   }
+
+   .copy{
+         color: rgba(255, 255, 255, 0.60);
+         text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        
+   }
+
